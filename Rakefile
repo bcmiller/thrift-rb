@@ -81,8 +81,8 @@ begin
     p.project = "fauna"
     p.summary = "Ruby libraries for Thrift (a language-agnostic RPC system)"
     p.include_rakefile = true
-    p.url = "http://blog.evanweaver.com/files/doc/fauna/thrift/"
-    p.docs_host = "blog.evanweaver.com:~/www/bax/public/files/doc/"
+    p.url = "http://github.com/evan/thrift/"
+    p.docs_host = "evan.github.com/fauna/"
   end
 
   task :install => [:check_site_lib]
